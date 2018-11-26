@@ -1,8 +1,7 @@
 # Omnipay: Razorpay
 
-[![Travis branch](https://travis-ci.org/razorpay/omnipay-razorpay.svg?branch=master)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-<!-- [![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg)]() -->
+[![Travis branch](https://travis-ci.org/insenseanalytics/omnipay-razorpay.svg?branch=master)]()
+[![License](https://poser.pugx.org/insenseanalytics/omnipay-razorpay/license)](https://packagist.org/packages/insenseanalytics/omnipay-razorpay)
 
 **Razorpay driver for the Omnipay PHP payment processing library**
 
@@ -17,20 +16,12 @@ To know more about Razorpay payment flow and steps involved, please read up here
 
 ## Installation
 
-Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply add it
-to your `composer.json` file:
+Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply require `league/omnipay` and `insenseanalytics/omnipay-razorpay` with Composer:
 
-```json
-{
-    "require": {
-        "razorpay/omnipay-razorpay": "~2.0"
-    }
-}
+```
+composer require league/omnipay insenseanalytics/omnipay-razorpay
 ```
 
-And run composer to update your dependencies:
-
-	$ composer update
 
 ## Basic Usage
 
@@ -50,5 +41,4 @@ If you want to keep up to date with release announcements, discuss ideas for the
 or ask more detailed questions, there is also a [mailing list](https://groups.google.com/forum/#!forum/omnipay) which
 you can subscribe to.
 
-If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/razorpay/omnipay-razorpay),
-or better yet, fork the library and submit a pull request.
+If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/insenseanalytics/omnipay-razorpay), or better yet, fork the library and submit a pull request.
